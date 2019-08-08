@@ -1,0 +1,29 @@
+body, h1, h2, h3, header, div, main, p {font-family: Verdana, Comic Sans MS, sans-serif; margin: 0; padding: 0;}
+
+.main {
+	min-height: 85vh;
+	width: 100vw;
+	background-color: lightgray;
+}
+
+.main__articles-wrapper {
+	width: 60vw;
+	height: 85vh;
+	background-color: white;
+	margin: 0 20% 0 20%;
+}
+
+.main__articles-wrapper__new-item {
+	background-color: #E6FF69;
+	margin: 0 5vw 0 5vw;
+	padding: 30px;
+	border: 3px solid black;
+}
+
+.main__articles-wrapper__new-item__title {
+	font-size: 48px;
+}
+
+.main__articles-wrapper__new-item__text {
+	font-size: 24px;
+}

@@ -1,0 +1,30 @@
+body {margin: 0; padding: 0; background: -webkit-linear-gradient(left, #3A009F, #C70603);}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 35vw 0 35vw;
+	padding: 20vh 0 0 0;
+}
+
+.form__input {
+	height: 8vh;
+	margin: 0 0 3vh 0;
+	border: 3px solid black;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+
+.form__input:focus {outline: none;}
+
+.form__input::-webkit-input-placeholder {
+	text-indent: 12vw;
+}
+
+.form__input_btn {
+	background: -webkit-linear-gradient(left, #9601EC, #BD2564);
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
